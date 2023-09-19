@@ -31,6 +31,10 @@ gallery.insertAdjacentHTML("afterbegin", galleryMarkup);
 //creating styles
 const styleEl = document.createElement("style");
 
+// const gallaryStyle = document.querySelector(".gallery")
+//   gallaryStyle.style.display = "flex";
+//   gallaryStyle.style.listStyle = "none";
+
 styleEl.innerHTML = `
   .gallery {
     display: grid;
